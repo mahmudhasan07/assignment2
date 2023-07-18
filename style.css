@@ -1,0 +1,113 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navitem-1{
+    display: flex;
+    margin-left: 80px;
+}
+.navitem-1 img{
+    width: 60px;
+    height: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.navitem-2{
+    display: flex;
+    justify-content: center;
+}
+.navitem-2 ul{
+display: flex;
+}
+.navitem-2 li{
+    margin: 20px;
+}
+.followus{
+    display: flex;
+    align-items: center;
+    background-color: rgb(224, 220, 220);
+    border-radius: 20px;
+
+}
+.followus p,i{
+    padding-right: 10px;
+}
+/* Header Section  */
+#header{
+    background: url(images/Group\ 14.png);
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+}
+.headeritem-1{
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    font-size: 20px;
+    border: 2px solid;
+    
+}
+.headeritem-1 h3{
+    font-size: 40px;
+    margin: 0px 0px;
+
+}
+.headeritem-1 h1{
+    font-size: 60px;
+    margin: 0px 0px;
+    padding-top: 0px;
+    text-align: center;
+    color: #F948B2;
+}
+.headeritem-2 img{
+    width: 480px;
+    height: 520px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    padding-bottom: -5px;
+}
+.headeritem-1 button{
+    margin: 5px 20px;
+    font-size: large;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.signin{
+    background-color: #F948B2;
+   
+}
+.gorogue{
+    background-color: #4EC5F7;
+}
+/* Main Section  */
+#mainsection{
+    display: flex;
+    background: #f6f2f4;
+
+}
+#mainsection-1 img{
+    width: 700px;
+    margin: 30px;
+}
+#mainsection-2{
+    margin: auto auto ;
+    text-align: right;
+    width: 350px;
+}
+#mainsection-2 h2{
+    font-size: 40px;
+}
+#mainsection h3{
+    margin: 5px 0px;
+    color: #534C64;
+    font-size: x-large;
+}
+#mainsection button{
+    margin: 5px 0px;
+    font-size: small;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F948B2; 
+}
