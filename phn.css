@@ -1,0 +1,184 @@
+@media screen and (max-width: 576px) {
+    body{
+        font-size: 20px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    #navbar{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 200px;
+    }
+    .navitem-1{
+        justify-content: center;
+        margin: 0px 0px;
+    }
+    .navitem-1 img{
+        margin-top: 7px;
+    }
+    .navitem-2{
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    .navitem-2 ul{
+        flex-direction: column;
+        padding: 0px 0px;  
+    }
+    .followus{
+        padding: 0px 0px;
+        margin: 0px 140px;
+        justify-content: center;
+    }
+    #header{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0px 150px;
+    }
+    .headeritem-1{
+        width: 100%;
+        padding: 0px 0px;
+        justify-content: center;
+        text-align: center;
+        margin: 50px 0px;
+    }
+    .headeritem-2 img{
+        width: 600px;
+        height: 650px;
+        margin: 0px 0px;
+    }
+    /* Main Section  */
+    #mainsection{
+        flex-direction: column;
+        width: fit-content;
+        margin: 0px 50px;
+    }
+    #mainsection-1{
+        padding: 0px 0px;
+    }
+    #mainsection-2{
+        text-align: center;
+    }
+    #mainsection-2 h3{
+        padding: 0px 0px;
+        font-size: 23px;
+        
+    }
+    #mainsection-2 button{
+        margin-bottom: 20px;
+    }
+    .mainsectionpart-1{
+        justify-content: center;
+        text-align: center;
+        margin: 0px 150px;
+        width: max-content;
+    }
+    .mainsectionpart-2{
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    .mainsectionpartimages img{
+        /* justify-content: center; */
+        width: 550px;
+        height: 600px;
+    }
+    .mainsectionpartimages figcaption{
+        width: max-content;
+    }
+    /* Bonus Section  */
+    .bonussection-1{
+        width: 250px;
+        height: 500px;
+        font-size: larger;
+        padding-left: 180px;
+        margin: 0px 0px;
+        text-align: center;
+    }
+    .bonussection-1 h1{
+        font-size: 50px;
+        padding: 0px 0px;
+        width: 350px;
+    }
+    .bonussection-1 p {
+        width: 540px;
+        padding-left: 0px;
+        margin-right: 100px;
+        text-align: center;
+    }
+    .images-1 img{
+        width: 550px;
+        height: 550px;
+    }
+    .images-2 img {
+        width: 200px;
+        height: 230px;
+    }
+    /* Bonus Section Part  */
+    #bonussectionpart{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .bonussectionpart-2{
+        padding: 0px 120px;
+    }
+    .bonussectionpart-2 h1{
+        width: 375px;
+        text-align: center;
+    }
+    /* Career Section  */
+    #careers{
+        flex-direction: column;
+        width: max-content;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .imgpart img{
+        width: 750px;
+        height: 700px;
+    }
+    .textpart{
+        width: 700px;
+    }
+    /* Sponsor Section  */
+    #sponsorsection{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .sponsorimg {
+        padding: 0px 30px;
+    }
+    .sponsorimg figcaption{
+        padding: 0px 50px;
+        padding-right: 50px;
+        width: 100px;
+    }
+    /* Footer Section */
+    .logo img{
+        margin-top: 30px;
+    }
+    #footersection{
+        width: 865px;
+    }
+    .footertitle ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px 80px;
+    }
+    .footerimg {
+        /* display: grid; */
+        /* grid-template-columns: repeat(3,1fr); */
+        padding: 50x;
+    }
+    .footertitle2 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footertitle2 p{
+        margin: 10px 100px;
+    }
+    .copyright span{
+        display: block;
+    }
+}

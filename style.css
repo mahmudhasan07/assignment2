@@ -4,11 +4,15 @@ body{
 }
 #navbar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .navitem-1{
     display: flex;
     margin-left: 80px;
+}
+.navitem-1 span{
+    color: #F948B2;
 }
 .navitem-1 img{
     width: 60px;
@@ -18,10 +22,12 @@ body{
 }
 .navitem-2{
     display: flex;
+    flex-wrap: wrap;
     margin-right: 100px;
 }
 .navitem-2 ul{
 display: flex;
+flex-wrap: wrap;
 }
 .navitem-2 li{
     margin: 20px;
@@ -112,6 +118,7 @@ padding: 0px 10px;
 }
 #mainsection-2 h2{
     font-size: 40px;
+    color: #F948B2;
 }
 #mainsection h3{
     margin: 5px 0px;
@@ -216,6 +223,9 @@ padding: 0px 10px;
     width: 350px;
     margin: auto auto;
 }
+.bonussectionpart-2 p{
+    color: #534C64;
+}
 .bonussectionpart-2 h1{
     font-size: 45px;
 }
@@ -229,7 +239,6 @@ padding: 0px 10px;
     padding: 100px ;
     padding-bottom: 0px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #F948B2;
     color: whitesmoke;
@@ -268,7 +277,6 @@ padding: 0px 10px;
 }
 .sponsorimg{
     display: flex;
-    flex-wrap: wrap;
     margin: 20px 10px;
 }
 #sponsorsection figcaption{
@@ -302,7 +310,7 @@ padding: 0px 10px;
     margin: 20px;
 }
 .footertitle ul{
-    display: flex;
+    display: flex; 
     justify-content: center;
 }
 .footertitle li{
@@ -322,6 +330,7 @@ padding: 0px 10px;
 }
 .footertitle2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
     color: #534C64;
