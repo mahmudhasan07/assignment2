@@ -56,8 +56,11 @@ padding: 0px 10px;
     /* justify-content: center; */
     /* align-items: center; */
     margin: 100px auto;
-    font-size: 20px;
+    font-size: 15px;
     
+}
+.headeritem-1 p{
+    color: #534C64;
 }
 .headeritem-1 h3{
     font-size: 40px;
@@ -78,14 +81,15 @@ padding: 0px 10px;
     padding-bottom: -5px;
 }
 .headeritem-1 button{
-    margin: 5px 20px;
-    font-size: large;
+    margin-right: 30px;
+    font-size: medium;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
 }
 .signin{
     background-color: #F948B2;
+    margin-left: 0px;
    
 }
 .gorogue{
@@ -294,6 +298,9 @@ padding: 0px 10px;
     margin-top: 20px;
     padding-top: 5px;
 }
+.footertitle {
+    margin: 20px;
+}
 .footertitle ul{
     display: flex;
     justify-content: center;
@@ -308,6 +315,7 @@ padding: 0px 10px;
 }
 .footerimg{
     text-align: center;
+    margin: 30px;
 }
 .footerimg i{
     padding: 0px 15px;
@@ -315,10 +323,13 @@ padding: 0px 10px;
 .footertitle2{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    color: #534C64;
 }
 .footertitle2 P{
-    margin: 20px 10px;
+    margin: 0px 10px;
 }
 .copyright{
+    color: #534C64;
     text-align: center;
 }
