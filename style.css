@@ -1,3 +1,7 @@
+body{
+    margin: 0px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -14,37 +18,45 @@
 }
 .navitem-2{
     display: flex;
-    justify-content: center;
+    margin-right: 100px;
 }
 .navitem-2 ul{
 display: flex;
 }
 .navitem-2 li{
     margin: 20px;
+    list-style: none;
+}
+.navitem-2 a{
+    text-decoration: none;
+    color: #3C354F;
 }
 .followus{
     display: flex;
     align-items: center;
-    background-color: rgb(224, 220, 220);
     border-radius: 20px;
-
+    background: rgb(224, 220, 220);
+    margin: 20px;
+    padding: 0px 10px;
+    
 }
-.followus p,i{
-    padding-right: 10px;
+.followus p{
+padding: 0px 10px;
+}
+.followus i{
+    padding: 0px 10px;
 }
 /* Header Section  */
 #header{
     background: url(images/Group\ 14.png);
     display: flex;
     justify-content: space-between;
-    border: 2px solid;
 }
 .headeritem-1{
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     margin: 100px auto;
     font-size: 20px;
-    border: 2px solid;
     
 }
 .headeritem-1 h3{
@@ -56,7 +68,6 @@ display: flex;
     font-size: 60px;
     margin: 0px 0px;
     padding-top: 0px;
-    text-align: center;
     color: #F948B2;
 }
 .headeritem-2 img{
@@ -110,4 +121,204 @@ display: flex;
     border-radius: 20px;
     border: none;
     background-color: #F948B2; 
+}
+/* Main Section  Part  */
+#mainsectionpart{
+    padding: 50px 5px;
+}
+.mainsectionpart-1 h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 0px;
+}
+.mainsectionpart-1 p{
+    text-align: center;
+    color: #534C64; 
+}
+.mainsectionpart-1 span{
+    color: #F948B2;
+}
+.mainsectionpart-1 {
+    margin: 50px 0px;
+}
+.mainsectionpart-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.mainsectionpartimages img{
+    width: 250px;
+    height: 300px;
+    margin-right: 10px;
+}
+.mainsectionpartimages figcaption{
+    width: 300px;
+    margin: 10px 0px;
+}
+/* Bonus Section  */
+#bonussection{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+.bonussection-1{
+    text-align: right;
+    width: 200px;
+    height: 200px;
+    margin: auto 150px;
+}
+.bonussection-1 span{
+    color: #F948B2;
+}
+.images-1 img{
+    width: 400px;
+    height: 400px;
+    margin-left: 80px;
+}
+.images-2 img{
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    margin-top: -150px;
+    
+
+}
+/* Bonus Section Part  */
+
+#bonussectionpart{
+    margin: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+.bonussectionpart-1{
+    display: flex;
+}
+.image1 img{
+    width: 510px;
+    height: 450px;
+}
+.image2 img{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: -100px;
+
+}
+.bonussectionpart-2{
+    width: 350px;
+    margin: auto auto;
+}
+.bonussectionpart-2 h1{
+    font-size: 45px;
+}
+.bonussectionpart-2 span{
+    color: #F948B2;
+}
+/* Career Section  */
+
+#careers{
+    margin-top: 100px;
+    padding: 100px ;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F948B2;
+    color: whitesmoke;
+}
+.textpart{
+    width: 500px;
+}
+.careeritem{
+    
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.imgpart img{
+    width: 650px;
+    height: 600px;
+}
+.careerbtn{
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+    color: #F948B2;
+}
+#sponsorsection{
+    width: 80%;
+    margin: 100px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sponsorsection img{
+    width: 35px;
+    height: 35px;
+    /* padding-right: 50px; */
+}
+.sponsorimg{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+}
+#sponsorsection figcaption{
+    padding: 0px 10px;
+    margin: 10px;
+    /* margin: 0px 50px; */
+}
+/* Footer Section  */
+#footersection{
+    background-color: #0B0223;
+    color: whitesmoke;
+    padding: 50px 0px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo h1{
+    margin-left: 10px;
+}
+.logo span{
+    color: #F948B2;
+}
+.logo img{
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+.footertitle ul{
+    display: flex;
+    justify-content: center;
+}
+.footertitle li{
+    list-style: none;
+    padding: 5px 20px;
+}
+.footertitle a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.footerimg{
+    text-align: center;
+}
+.footerimg i{
+    padding: 0px 15px;
+}
+.footertitle2{
+    display: flex;
+    justify-content: center;
+}
+.footertitle2 P{
+    margin: 20px 10px;
+}
+.copyright{
+    text-align: center;
 }
