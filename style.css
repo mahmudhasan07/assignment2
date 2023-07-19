@@ -10,6 +10,7 @@ body{
 .navitem-1{
     display: flex;
     margin-left: 80px;
+    margin-top: 10px;
 }
 .navitem-1 span{
     color: #F948B2;
