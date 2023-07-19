@@ -279,6 +279,12 @@ padding: 0px 10px;
     display: flex;
     margin: 20px 10px;
 }
+.sponsorimg:hover{
+    border: 2px solid #F948B2;
+    color: #F948B2;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
 #sponsorsection figcaption{
     padding: 0px 10px;
     margin: 10px;

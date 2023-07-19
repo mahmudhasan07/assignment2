@@ -130,7 +130,7 @@
     /* Career Section  */
     #careers{
         flex-direction: column;
-        width: max-content;
+        width: 1000px;
         margin-right: 0px;
         margin-left: 0px;
     }
@@ -145,6 +145,8 @@
     #sponsorsection{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        /* margin-left: 100px; */
     }
     .sponsorimg {
         padding: 0px 30px;
@@ -159,7 +161,7 @@
         margin-top: 30px;
     }
     #footersection{
-        width: 865px;
+        width: 1135px;
     }
     .footertitle ul{
         display: grid;
