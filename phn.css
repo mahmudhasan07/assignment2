@@ -87,8 +87,8 @@
     }
     .mainsectionpartimages img{
         /* justify-content: center; */
-        width: 550px;
-        height: 600px;
+        width: 450px;
+        height: 500px;
     }
     .mainsectionpartimages figcaption{
         width: max-content;
@@ -140,21 +140,21 @@
     /* Career Section  */
     #careers{
         flex-direction: column;
-        width: 1000px;
+        width: 600px;
         padding: 100px 150px;
     }
     .imgpart img{
-        width: 750px;
-        height: 700px;
+        width: 550px;
+        height: 500px;
     }
     .textpart{
-        width: 700px;
+        width: 500px;
     }
     /* Sponsor Section  */
     #sponsorsection{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        width: 900px;
+        width: 600px;
         border: 2px solid;
         margin-left: 100px;
         /* padding: 50px 50px; */
@@ -173,7 +173,7 @@
         margin-top: 30px;
     }
     #footersection{
-        width: 1300px;
+        width: 600px;
         margin-left: 0px;
         padding-right: 0px;
         margin-right: 0px;
