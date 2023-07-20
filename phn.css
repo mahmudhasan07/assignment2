@@ -7,9 +7,9 @@
     #navbar{
         flex-direction: column;
         text-align: center;
-        justify-content: center;
+        /* justify-content: center; */
         width: 100%;
-        margin: 10px 150px;
+        margin: 10px 200px;
     }
     .navitem-1{
         justify-content: center;
@@ -28,7 +28,7 @@
     }
     .followus{
         padding: 0px 0px;
-        margin: 0px 90px;
+        margin: 0px 40px;
         justify-content: center;
     }
     #header{
@@ -53,7 +53,8 @@
     #mainsection{
         flex-direction: column;
         width: max-content;
-        margin: 0px 100px;
+        margin: 0px 50px;
+        padding: 0px 20px;
     }
     #mainsection-1{
         padding: 0px 0px;
@@ -80,13 +81,13 @@
     .mainsectionpart-1{
         justify-content: center;
         text-align: center;
-        margin: 0px 150px;
+        margin: 0px 100px;
         width: max-content;
     }
     .mainsectionpart-2{
         justify-content: center;
         flex-direction: column;
-        margin-left: 150px;
+        margin-left: 100px;
     }
     .mainsectionpartimages img{
         /* justify-content: center; */
