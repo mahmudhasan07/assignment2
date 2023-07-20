@@ -159,11 +159,34 @@ padding: 0px 10px;
     justify-content: center;
 
 }
+.mainsectionpartimages{
+    position: relative;
+}
 .mainsectionpartimages img{
+    opacity: 1;
+    display: block;
     width: 250px;
     height: 300px;
     margin-right: 10px;
+    backface-visibility: hidden;
 }
+.mainsectionpartimages:hover img {
+    filter: blur(8px);
+    border: 5px solid #F948B2;
+}
+.mainsectionpartimages:hover .middle {
+    opacity: 1;
+}
+.middle {
+    transition: .5s;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+
+    text-align: center;
+}
+
 .mainsectionpartimages figcaption{
     width: 300px;
     margin: 10px 0px;

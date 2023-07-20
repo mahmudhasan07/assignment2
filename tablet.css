@@ -37,13 +37,19 @@
     }
     #careers{
         flex-direction: column;
-        width: 800px;
+        width: fit-content;
+        padding: 0px 60px;
+    }
+    .textpart{
+        margin: 10px 50px;
     }
     #sponsorsection{
         margin: 50px 100px;
     }
     #footersection{
-        width: 800px;
+        width: fit-content;
+        margin-left: 0px;
+        padding: 50px 60px;
     }
     
 }

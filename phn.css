@@ -9,7 +9,7 @@
         text-align: center;
         justify-content: center;
         width: 100%;
-        margin: 10px 350px;
+        margin: 10px 150px;
     }
     .navitem-1{
         justify-content: center;
@@ -34,8 +34,8 @@
     #header{
         flex-direction: column-reverse;
         width: fit-content;
-        padding: 0px 150px;
-        margin: 0px 100px;
+        padding: 0px 50px;
+        margin: 0px 50px;
     }
     .headeritem-1{
         width: 100%;
@@ -45,8 +45,8 @@
         margin: 50px 0px;
     }
     .headeritem-2 img{
-        width: 600px;
-        height: 650px;
+        width: 500px;
+        height: 450px;
         margin: 0px 0px;
     }
     /* Main Section  */
@@ -57,6 +57,9 @@
     }
     #mainsection-1{
         padding: 0px 0px;
+    }
+    #mainsection-1 img{
+        width: 500px;
     }
     #mainsection-2{
         text-align: center;
@@ -72,7 +75,7 @@
     /* Main Section Part  */
     #mainsectionpart{
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 20px;
     }
     .mainsectionpart-1{
         justify-content: center;
@@ -95,13 +98,14 @@
     }
     /* Bonus Section  */
     #bonussection{
-        margin: 0px 100px;
+        margin: 0px 40px;
+        padding: 0px 10px;
     }
     .bonussection-1{
         width: 250px;
         height: 500px;
         font-size: larger;
-        padding-left: 180px;
+        padding-left: 100px;
         margin: 0px 0px;
         text-align: center;
     }
@@ -111,23 +115,23 @@
         width: 350px;
     }
     .bonussection-1 p {
-        width: 540px;
+        width: 400px;
         padding-left: 0px;
-        margin-right: 100px;
         text-align: center;
     }
     .images-1 img{
-        width: 550px;
-        height: 550px;
+        width: 500px;
+        height: 450px;
     }
     .images-2 img {
-        width: 200px;
-        height: 230px;
+        width: 180px;
+        height: 200px;
     }
     /* Bonus Section Part  */
     #bonussectionpart{
         flex-direction: column-reverse;
-        margin: 100px 100px;
+        margin: 100px 40px;
+        padding: 0px 10px;
         gap: 20px;
     }
     .bonussectionpart-2{
@@ -140,8 +144,9 @@
     /* Career Section  */
     #careers{
         flex-direction: column;
-        width: 600px;
-        padding: 100px 150px;
+        width: fit-content;
+        padding: 50px 100px;
+        margin: 0px 0px;
     }
     .imgpart img{
         width: 550px;
@@ -154,14 +159,15 @@
     #sponsorsection{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        width: 600px;
+        width: fit-content;
         border: 2px solid;
-        margin-left: 100px;
+        margin-left: 30px;
         /* padding: 50px 50px; */
         /* margin: 0px 100px; */
     }
     .sponsorimg {
-        padding: 0px 30px;
+        padding: 0px 10px;
+        margin: 5px 5px;
     }
     .sponsorimg figcaption{
         padding: 0px 50px;
@@ -175,8 +181,7 @@
     #footersection{
         width: 600px;
         margin-left: 0px;
-        padding-right: 0px;
-        margin-right: 0px;
+        padding: 10px 75px;
     }
     .footertitle {
         margin: 0px 100px;
